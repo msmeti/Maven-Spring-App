@@ -15,7 +15,7 @@ git url: 'git://github.com/msmeti/Maven-Spring-App.git', branch: 'main'
 
 
 // To run Maven on a Windows agent, use 
-bat "mvn -Dmaven.test.failure.ignore=true clean package" 
+sh "mvn -Dmaven.test.failure.ignore=true clean package" 
 } 
 
 post { 
